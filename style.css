@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #1f2937;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header .links {
+    font-size: 20px;
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.header a {
+    color: #e5e7eb;
+}
+
+.hero {
+    background: #1f2937;
+    display: inline-flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    height: 530px; width: 100%;
+}
+
+.hero img {
+    width: 32%;
+}
+
+.hero .main-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 440px;
+    gap: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+#singup {
+    width: 7rem;
+    padding: 7px;
+    background: #3882f6;
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+.main-text button:hover {
+    cursor: pointer;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.information h1 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.info-subtext {
+    display: inline-flex;
+    flex-direction: row;
+    width: 720px;
+    text-align: center;
+    gap: 2rem;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.info-subtext img {
+    
+    border: #3882f6 solid 3px;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    background: #e5e7eb;
+}
+
+.quote h1 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote h2 {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.signup {
+    color: white;
+    background: #3882f6;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 45px;
+    width: 820px;
+    align-items: center;
+}
+
+.signup h1 {
+    font-size: 22px;
+}
+
+.signup p {
+    font-size: 17px;
+}
+
+.signup button {
+    width: 150px;
+    height: 40px;
+    background: #3882f6;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+.signup button:hover {
+    cursor: pointer;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
